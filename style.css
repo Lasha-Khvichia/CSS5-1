@@ -10,6 +10,15 @@ body {
 img {
   cursor: pointer;
 }
+.container {
+  max-width: 1040px;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.wrap {
+  flex-wrap: wrap;
+}
 
 /* || Header */
 
@@ -18,9 +27,10 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 64px;
+  padding: 14px;
 }
-span {
+span, a {
+  text-decoration: none;
   color: #FFF;
   font-family: Inter;
   font-size: 16px;
